@@ -1,0 +1,11 @@
+[Unit]
+Description=kylin Edu Apps info DBUS service
+
+[Service]
+Type=dbus
+BusName=com.kylin.intel.edu.appsinfo
+ExecStart=/usr/bin/appsinfo
+User=root
+
+[Install]
+WantedBy=multi-user.target

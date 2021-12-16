@@ -1,0 +1,162 @@
+appinfo-backend (1.27.9.2kord) v101; urgency=medium
+
+  * bug号：86525
+  * 隐藏mdm中的安卓应用列表
+
+ -- duchangfeng <duchangfeng@kylinos.cn>  Sat, 23 Oct 2021 16:56:58 +0800
+appinfo-backend (1.27.9.1kord) v101; urgency=medium
+
+  * bug号：79458
+  * 修改管控列表:invisible_list.txt + sogouImeConfigToolVK
+  * 替换获取腾讯应用方案：sso → /usr/share/applications/
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Wed, 08 Sep 2021 10:11:58 +0800
+appinfo-backend (1.27.8.8.2kord) v101; urgency=medium
+
+  * 修改管控列表:China Edu OS_SWPOR_20210303_v1.7.xlsx - wps 2019
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Sat, 13 Mar 2021 13:12:06 +0800
+appinfo-backend (1.27.8.8.1kord) v101; urgency=medium
+
+  * 根据HP要求修改管控列表:China Edu OS_SWPOR_20210303_v1.7.xlsx
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Fri, 05 Mar 2021 11:01:07 +0800
+appinfo-backend (1.27.8.8kord) v101; urgency=medium
+
+  * 根据HP要求修改管控列表
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Fri, 26 Feb 2021 11:13:57 +0800
+appinfo-backend (1.27.8.7kord) v101; urgency=medium
+
+  * 为mdm-acpanel.desktop空属性值增加判断
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Thu, 24 Dec 2020 10:52:17 +0800
+appinfo-backend (1.27.8.6kord) v101; urgency=medium
+
+  * 为MDM修改应用详情接口在任何环境下都输出中文
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Thu, 24 Dec 2020 09:05:17 +0800
+appinfo-backend (1.27.8.5kord) v101; urgency=medium
+
+  * 修复kylin用户调用接口崩溃问题-tty1  kylin apt update操作
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Wed, 09 Dec 2020 11:39:24 +0800
+appinfo-backend (1.27.8.4kord) v101; urgency=medium
+
+  * 修改用户不可见app列表
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Wed, 02 Dec 2020 20:09:22 +0800
+appinfo-backend (1.27.8.3kord) v101; urgency=medium
+
+  * 修改用户不可见app列表
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Thu, 26 Nov 2020 10:50:32 +0800
+appinfo-backend (1.27.8.2kord) v101; urgency=medium
+
+  * -增加用户不可见应用，修改不可见列表
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Thu, 26 Nov 2020 09:20:19 +0800
+appinfo-backend (1.27.8.1kord) v101; urgency=medium
+
+  * -修复部分系统应用不可见问题
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Mon, 23 Nov 2020 19:00:18 +0800
+appinfo-backend (1.27.7kord) v101; urgency=medium
+
+  * -增加用户应用分离功能，对腾讯应用进行处理 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Wed, 18 Nov 2020 14:19:40 +0800
+appinfo-backend (1.27.2kord) v101; urgency=medium
+
+  * -修复部分应用无法获取详情问题 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Mon, 28 Sep 2020 20:32:55 +0800
+appinfo-backend (1.26dkord) v101; urgency=medium
+
+  * -修复内存泄漏问题，接口更安全 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Sat, 26 Sep 2020 14:38:29 +0800
+
+appinfo-backend (1.23dkord) v101; urgency=medium
+
+  * -更改用户不可见应用(install) 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Thu, 24 Sep 2020 11:23:36 +0800
+appinfo-backend (1.22dkord) v101; urgency=medium
+
+  * -上次app_path被改为链接到的路径，本次对其更改 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Thu, 24 Sep 2020 09:16:36 +0800
+appinfo-backend (1.19dkord) v101; urgency=medium
+
+  * -加入closedir() 接口调用更安全～ -新增applist过滤
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Tue, 22 Sep 2020 20:18:55 +0800
+
+appinfo-backend (1.15dkord) v101; urgency=medium
+
+  * Initial release 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Thu, 27 Aug 2020 09:52:44 +0800
+appinfo-backend (1.14dkord) v101; urgency=medium
+
+  * Initial release 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Thu, 27 Aug 2020 09:25:06 +0800
+appinfo-backend (1.13dkord) v101; urgency=medium
+
+  * Initial release 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Thu, 27 Aug 2020 09:10:04 +0800
+appinfo-backend (1.12kord) v101; urgency=medium
+
+  * Initial release 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Thu, 27 Aug 2020 08:50:18 +0800
+appinfo-backend (1.11kord) v101; urgency=medium
+
+  * Initial release 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Thu, 27 Aug 2020 08:44:32 +0800
+appinfo-backend (1.10kord) v101; urgency=medium
+
+  * Initial release 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Wed, 26 Aug 2020 22:22:26 +0800
+appinfo-backend (1.9kord) v101; urgency=medium
+
+  * Initial release 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Wed, 26 Aug 2020 21:41:50 +0800
+appinfo-backend (1.8kord) v101; urgency=medium
+
+  * Initial release 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Wed, 26 Aug 2020 20:23:25 +0800
+appinfo-backend (1.7kord) v101; urgency=medium
+
+  * Initial release 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Wed, 26 Aug 2020 19:32:04 +0800
+appinfo-backend (1.6kord) v101; urgency=medium
+
+  * Initial release 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Wed, 26 Aug 2020 16:44:59 +0800
+appinfo-backend (1.3kord) v101; urgency=medium
+
+  * Initial release 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Sat, 22 Aug 2020 14:20:00 +0800
+
+appinfo-backend (1.1kord) v101; urgency=medium
+
+  * Initial release 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Sat, 22 Aug 2020 13:28:32 +0800
+
+appinfo-backend (1.0kord) v101; urgency=medium
+
+  * Initial release 
+
+ -- zhangtingting <zhangtingting@kylinos.cn>  Fri, 14 Aug 2020 10:17:53 +0800

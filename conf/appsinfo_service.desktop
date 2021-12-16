@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=service1
+Name[zh_CN]=service1
+Name[zh_HK]=service1
+Name[zh_TW]=service1
+Comment=Beautiful Network Config Applet
+Keywords=applet;nm;network;network-manager;
+Exec=/usr/bin/appsinfo
+StartupNotify=false
+Terminal=false
+Type=Application
+

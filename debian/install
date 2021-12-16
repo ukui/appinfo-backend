@@ -1,0 +1,6 @@
+#!/bin/bash
+conf/com.kylin.intel.edu.appsinfo.conf /etc/dbus-1/system.d/
+appsinfo /usr/bin/
+#debian/appsinfo.service /lib/systemd/system
+conf/appsinfo_service.desktop /etc/xdg/autostart/
+invisible_list.txt /etc/
